@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Tweetledee-Tweetledum
+        </h1>,
+        <div>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "DeepSkyBlue",
+                "color": "white",
+                "fontSize": "20px",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Switch user
+          </button>
+        </div>,
+        <h2>
+          Here are the latest tweets from 
+          Donald Trump
+        </h2>,
+        <div>
+          Loading...
+        </div>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Tweetledee-Tweetledum",
+        },
+        "ref": null,
+        "rendered": "Tweetledee-Tweetledum",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "DeepSkyBlue",
+                "color": "white",
+                "fontSize": "20px",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Switch user
+          </button>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Switch user",
+            "onClick": [Function],
+            "style": Object {
+              "backgroundColor": "DeepSkyBlue",
+              "color": "white",
+              "fontSize": "20px",
+              "fontWeight": "bold",
+            },
+          },
+          "ref": null,
+          "rendered": "Switch user",
+          "type": "button",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Here are the latest tweets from ",
+            "Donald Trump",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Here are the latest tweets from ",
+          "Donald Trump",
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Loading...",
+        },
+        "ref": null,
+        "rendered": "Loading...",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Tweetledee-Tweetledum
+          </h1>,
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "DeepSkyBlue",
+                  "color": "white",
+                  "fontSize": "20px",
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Switch user
+            </button>
+          </div>,
+          <h2>
+            Here are the latest tweets from 
+            Donald Trump
+          </h2>,
+          <div>
+            Loading...
+          </div>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tweetledee-Tweetledum",
+          },
+          "ref": null,
+          "rendered": "Tweetledee-Tweetledum",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "DeepSkyBlue",
+                  "color": "white",
+                  "fontSize": "20px",
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Switch user
+            </button>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Switch user",
+              "onClick": [Function],
+              "style": Object {
+                "backgroundColor": "DeepSkyBlue",
+                "color": "white",
+                "fontSize": "20px",
+                "fontWeight": "bold",
+              },
+            },
+            "ref": null,
+            "rendered": "Switch user",
+            "type": "button",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Here are the latest tweets from ",
+              "Donald Trump",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Here are the latest tweets from ",
+            "Donald Trump",
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Loading...",
+          },
+          "ref": null,
+          "rendered": "Loading...",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
